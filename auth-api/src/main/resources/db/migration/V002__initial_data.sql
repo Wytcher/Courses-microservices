@@ -1,0 +1,32 @@
+
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (1, 'Acre', 'AC');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (2, 'Alagoas', 'AL');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (3, 'Amapá', 'AP');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (4, 'Amazonas', 'AM');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (5, 'Bahia', 'BA');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (6, 'Ceará', 'CE');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (7, 'Distrito Federal', 'DF');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (8, 'Espírito Santo', 'ES');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (9, 'Goiás', 'GO');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (10, 'Maranhão', 'MA');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (11, 'Mato Grosso', 'MT');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (12, 'Mato Grosso do Sul', 'MS');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (13, 'Minas Gerais', 'MG');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (14, 'Pará', 'PA');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (15, 'Paraíba', 'PB');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (16, 'Paraná', 'PR');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (17, 'Pernambuco', 'PE');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (18, 'Piauí', 'PI');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (19, 'Rio de Janeiro', 'RJ');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (20, 'Rio Grande do Norte', 'RN');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (21, 'Rio Grande do Sul', 'RS');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (22, 'Rondônia', 'RO');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (23, 'Roraima', 'RR');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (24, 'Santa Catarina', 'SC');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (25, 'São Paulo', 'SP');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (26, 'Sergipe', 'SE');
+insert into tb_brazil_ufs (id, uf_name, uf_acronym) values (27, 'Tocantins', 'TO');
+
+insert into tb_roles (id, role_name)values (1, 'STUDENT');
+insert into tb_roles (id, role_name)values (2, 'EMPLOYEE');
+insert into tb_roles (id, role_name)values (3, 'ADMIN');

@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+
+  postgres:
+    container_name: postgres-course
+    image: postgres:10.5
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - '5440:5432'
+
+  rabbitMq:
+    container_name: course-rabbitmq
+    image: rabbitmq:3.9.7-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+      - 45806:15672
+    restart: always
+    environment:
+      - RABBITMQ_USER=guest
+      - RABBITMQ_PASSWORD=guest
+    networks:
+      - rabbitmq-service-net
+
+networks:
+  rabbitmq-service-net: { }

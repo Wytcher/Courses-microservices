@@ -1,0 +1,2 @@
+INSERT INTO tb_users (id, first_name, last_name, email, password) VALUES (5,'Gustavo', 'Macena', 'gustavo@email.com', '$2a$10$5MW0moFXpZLLUC5wjtURdeaXOET8UuDWtZhsg3UB63XiNV74UzHw2');
+INSERT INTO tb_user_roles(user_id, role_id) VALUES (5,3)

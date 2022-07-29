@@ -1,0 +1,30 @@
+server:
+  port: 8082
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
+    hostname: localhost
+
+spring:
+  application:
+    name: courses-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/courses-db?createDatabaseIfNotExist=true
+    username: postgres
+    password: 12345
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+app:
+  config:
+    jwt:
+      expiration: 600000
+    secrets:
+      api-secret: ${API_SECRET:YXV0aC1hcGktc2VjcmV0LWRldi0xMjM0NTY=DHUASU12H3HOPA=sada2hih213hAhAS2IHahiHU2UHuihashuHU2U1HIUhhashas812378HH231U2I}
